@@ -4,11 +4,9 @@ A full-stack multi-turn LLM chatbot built with **React (Vite)**, **Python (FastA
 
 ## 1. Live URLs
 
-- **Frontend URL:** `[Insert your deployed frontend URL, e.g. https://your-app.vercel.app]`
-- **Backend URL:** `[Insert your deployed backend URL, e.g. https://your-api.onrender.com]`
-- **GitHub Repository:** `[Insert your public GitHub repository URL]`
-- **Demo Video:** `[Insert your 2–3 minute demo video URL]`
-
+- **Frontend URL:** https://lyftr-llm-chatbot-liard.vercel.app
+- **Backend URL:** https://lyftr-llm-chatbot-5rdt.onrender.com
+- **GitHub Repository:** https://github.com/adityajha2004/Lyftr-llm-Chatbot
 > **Deployment checklist:**
 > 1. Deploy `/backend` (Docker runtime) to Render, Railway, Fly.io, or Hugging Face Spaces with a persistent volume mounted at `/data`, `DATABASE_URL=sqlite:////data/app.db`, `LLM_API_KEYS=<key1>,<key2>`, `ENABLE_FAILURE_SIMULATION=true`, and `ALLOWED_ORIGINS=<your-frontend-url>`.
 > 2. Deploy `/frontend` to Vercel, Netlify, Render, or Cloudflare Pages with `VITE_API_BASE_URL=<your-backend-url>`.
@@ -127,8 +125,7 @@ python3 -m unittest discover -s tests -v
 
 ## 5. Setup Used: your editor and AI tools
 
-- **AI Assistant:** Gemini (full-stack architecture, FastAPI/LiteLLM backend, React/Vite frontend, Dockerfiles, and automated contract test suite).
-- **Editor / Runtime:** `[Add your editor, e.g. VS Code / Cursor]` with Docker Desktop, Python 3.11, and Node.js 20.
+- **Editor / Runtime:** `VS Code` with Docker Desktop, Python 3.11, and Node.js 20.
 
 ## 6. Bonus features (if any): what you added beyond the requirements and why
 
