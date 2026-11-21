@@ -7,6 +7,7 @@ A full-stack multi-turn LLM chatbot built with **React (Vite)**, **Python (FastA
 - **Frontend URL:** https://lyftr-llm-chatbot-liard.vercel.app
 - **Backend URL:** https://lyftr-llm-chatbot-5rdt.onrender.com
 - **GitHub Repository:** https://github.com/adityajha2004/Lyftr-llm-Chatbot
+- **Demon Video:**https://drive.google.com/file/d/1a6cgcfo1OAcNp5e-soN_MAM4BwfqVymP/view?usp=drive_link
 > **Deployment checklist:**
 > 1. Deploy `/backend` (Docker runtime) to Render, Railway, Fly.io, or Hugging Face Spaces with a persistent volume mounted at `/data`, `DATABASE_URL=sqlite:////data/app.db`, `LLM_API_KEYS=<key1>,<key2>`, `ENABLE_FAILURE_SIMULATION=true`, and `ALLOWED_ORIGINS=<your-frontend-url>`.
 > 2. Deploy `/frontend` to Vercel, Netlify, Render, or Cloudflare Pages with `VITE_API_BASE_URL=<your-backend-url>`.
